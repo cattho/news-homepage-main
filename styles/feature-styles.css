@@ -1,0 +1,41 @@
+/* feature */
+
+.featured-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: space-between;
+  
+  }
+  
+  .featured-item {
+    display: flex;
+    max-height: 210px;
+    margin: 0;
+    padding: 0;
+    width: 339px;
+  }
+  
+  .featured-item img {
+    max-width: 45%;
+    max-height: 8rem;
+    margin: 0 20px 0 0;
+  }
+  
+  .item-number {
+    margin: 0;
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: var(--Grayish-blue);
+  }
+  
+  .item-title {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .item-description {
+    margin: 0;
+    color: var(--Grayish-blue);
+  }

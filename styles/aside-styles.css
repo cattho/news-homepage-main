@@ -1,0 +1,36 @@
+/* aside */
+.news-section {
+    padding: 1rem;
+    background-color: var(--Very-dark-blue);
+    gap: 6rem;
+    height: 510px;
+  }
+  
+  .news-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .news-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .section-title {
+    color: var(--Soft-orange);
+    font-size: 2rem;
+  }
+  
+  .news-subtitle {
+    color: var(--Off-white);
+  }
+  
+  .news-subtitle:hover {
+    cursor: pointer;
+    color: var(--Soft-orange);
+  }
+  
+  .news-description {
+    color: var(--Grayish-blue);
+  }

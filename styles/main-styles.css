@@ -1,0 +1,53 @@
+/* colors */
+:root {
+  --Soft-orange: hsl(35, 77%, 62%);
+  --Soft-red: hsl(5, 85%, 63%);
+  --Off-white: hsl(36, 100%, 99%);
+  --Grayish-blue: hsl(233, 8%, 79%);
+  --Dark-grayish-blue: hsl(236, 13%, 42%);
+  --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("/assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "inter";
+  background-color: var(--Off-white);
+  gap: 20;
+}
+
+body p {
+  font-size: 15px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .attribution{
+    margin-top: .5rem;
+    position: relative;
+  }
+}
